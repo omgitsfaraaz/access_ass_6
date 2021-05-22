@@ -15,8 +15,12 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.quick-desc--desk, .access-desc--desk {
+.quick-desc--desk, .access-desc--desk, .sixth-section-one--desk, .sixth-mob, .seven-mob, .footer-logo {
     display: none;
+}
+
+.footer-logo--desk {
+    display: block;
 }
 
 .logo-div {
@@ -148,12 +152,92 @@ body {
     color: var(--dark_grayish_blue);
 }
 
+.blacklist-icon {
+    width: 100%;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.sixth-section {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.sixth-section-two {
+    margin-top: 80px;
+}
+
+.seven-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seven-section  img {
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.eight-section {
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.nine-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.two-btns {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 4;
+    background-color: rgb(243, 240, 240);
+    color: var(--grayish_blue);
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+.last-section  p {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 30%;
+    margin-left: 64px;
+    margin-top: 56px;
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
 @media (min-width: 1024px) {
-    .first-section, .button-div, .computer-img, .quick-para, .quick-desc, .third-section, .access-desc, .fourth-section, .supercharge {
+    .first-section, .button-div, .computer-img, .quick-para, .quick-desc, .third-section, .access-desc, .fourth-section, .supercharge, .sixth-section, .sixth-section-one, .sixth-section-two, .blacklist-icon, .seven-section--desk, .two-btns, .last-section, .last-para {
         display: none;
     }
 
-    .first-section--desk, .button-div--desk, .computer-img--desk, .quick-para--desk, .quick-desc--desk, .third-section--desk, .access-desc--desk, .fourth-section--desk, .supercharge--desk {
+    .first-section--desk, .button-div--desk, .computer-img--desk, .quick-para--desk, .quick-desc--desk, .third-section--desk, .access-desc--desk, .fourth-section--desk, .supercharge--desk, .sixth-section--desk, .sixth-section-one--desk, .sixth-section-two--desk, .blacklist-icon--desk, .sixth-mob, .nine-div--desk, .two-btns--desk, .last-section--desk, .last-para--desk {
         display: block;
     }
 
@@ -267,4 +351,85 @@ body {
         text-align: center;
         color: var(--dark_grayish_blue);
     }
+
+    .sixth-section--desk {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .blacklist-icon--desk {
+        width: 300px;
+        text-align: center;
+    }
+
+    .create-para {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: var(--dark_grayish_blue);
+        margin-top: 30px;
+    }
+
+    .create-desc {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 20px;
+        color: var(--grayish_blue);
+        line-height: 25px;
+    }
+
+    .seven-mob {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px;
+        margin-top: 80px;
+    }
+
+    .nine-div--desk {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .two-btns--desk {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    .last-section--desk {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(243, 240, 240);
+        color: var(--grayish_blue);
+        font-weight: 600;
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 2;
+        margin-top: 0;
+    }
+
+    .last-section--desk  p {
+        text-align: left;
+    }
+
+    .footer-logo {
+        width: 30%;
+        margin-left: 64px;
+        margin-top: 56px;
+        margin-bottom: 45px;
+    }
+
+    .last-para--desk {
+        margin-bottom: 33px;
+    }
+
 }
